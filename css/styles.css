@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+.logo {
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.container-login {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 600px;
+}
+
+.login-title {
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+
+.container-inputs {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.text-input {
+    color: red;
+    font-size: 12px;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn-login {
+    margin-top: 10px;
+    background-color: blue;
+    border: none;
+    padding: 7px 20px;
+    border-radius: 7px;
+    font-size: 30px;
+    color: white;
+}
+
+.container-user {
+    margin-top: 60px;
+}
+
+.user-infos {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    max-width: 520px;
+}
+
+.container-notas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 500px;
+    text-align: center;
+}
+
+.container-notas  h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.text-col {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+@media (max-width:600px) {
+    .user-infos {
+        width: 300px;
+        max-width: 320px;
+    }
+
+    .container-notas {
+        max-width: 300px;
+    }
+}
